@@ -20,11 +20,13 @@ Access the login page
 
 Enter the credentails
     [Arguments]     ${username}     ${password}
+    Wait Until Element Is Visible    ${xpathusername}
     Input Text    ${xpathusername}    ${username}
     Input Password    ${xpathpassword}    ${password}
     Click Button    ${xpathsubmit}
 
  login validation
+    Wait Until Element Is Visible    ${xpathtext}
     ${page_text}=   Get Text  ${xpathtext}
     IF    'Welcome' in $page_text
         Log    SUCCESS: Login successful

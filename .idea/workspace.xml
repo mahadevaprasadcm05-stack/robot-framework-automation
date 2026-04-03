@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9785761e-fb17-4a9b-8027-870f6bf5ff25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Navigation.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Login_validation.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Sample_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/sample_test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Navigation.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Navigation.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
