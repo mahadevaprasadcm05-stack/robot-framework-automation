@@ -1,5 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
+Resource    ../resources/Custom_Library.py
+
 
 
 *** Variables ***
@@ -24,6 +26,7 @@ Enter the credentails
     Input Text    ${xpathusername}    ${username}
     Input Password    ${xpathpassword}    ${password}
     Click Button    ${xpathsubmit}
+
 
  login validation
     Wait Until Element Is Visible    ${xpathtext}
